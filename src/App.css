@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.contact-form-container {
+  width: 300px;
+  margin-right: 20px; /* Adjust the spacing between the form and table */
+  font-family: Arial, sans-serif;
+   float: left; /* Align the form to the left */
+ 
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="phone"],
+#contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+#contact-form textarea {
+  height: 100px;
+}
+
+#contact-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#contact-form button:hover {
+  background-color: #0056b3;
+}
+/* .table-container {
+  /* width: 200%;
+  left: 80%;
+  float: right; */
+  /* overflow-x: auto; */
+  /* width: 100%; /* Reset width on small screens */
+  /* margin-right: 0; Reset margin */
+  /* margin-bottom: 20px; /* Add some spacing between the form and table on small screens */
+  /* float: right; Reset float */ */
+  /* width: calc(100% - 320px); Adjust the width of the table container */
+  /* float: right; Align the table to the right */ */
+/* } */
+
+  .contact-form-container,
+  .table-container {
+    width: 100%; /* Reset width on small screens */
+    margin-right: 0; /* Reset margin */
+    margin-bottom: 20px; /* Add some spacing between the form and table on small screens */
+    float: none; /* Reset float */
+    position: static; /* Reset position */
+    transform: none; /* Reset transform */
+    bottom: auto; /* Reset bottom */
+  }
+  
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* float: right; */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+button {
+  padding: 6px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
